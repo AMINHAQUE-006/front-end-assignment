@@ -14,8 +14,10 @@ This project contains two UI components built from scratch using **React, TypeSc
    npm install
 
 2. Run Storybook (recommended for component review):
+   ```bash
     npm run storybook
 
-Run the app with demo usage in App.tsx:
+3.Run the app with demo usage (optional) in App.tsx:
+   ```bash
     npm run dev
 
