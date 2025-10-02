@@ -62,37 +62,6 @@ This project contains two UI components built from scratch using **React, TypeSc
 
 ---
 
-## 📦 Deployment
-
-There are two ways to deploy your work:
-
-### 1. Deploy Storybook (recommended)
-Storybook gives reviewers an interactive component playground.
-
-- Build Storybook:
-  ```bash
-  npm run build-storybook
-  ```
-  This creates a static site in the `storybook-static/` folder.  
-
-- Deploy options:
-  - **Vercel / Netlify** → Point to `storybook-static/` folder when deploying.  
-  - **Chromatic (official Storybook hosting)**:
-    ```bash
-    npx chromatic --project-token=<your-token>
-    ```
-
-### 2. Deploy Full App (with App.tsx demo)
-If you want to showcase the demo app as well:
-
-- Build your app (Vite/CRA/Next.js):
-  ```bash
-  npm run build
-  ```
-- Deploy the generated `dist/` or `build/` folder to Vercel, Netlify, or GitHub Pages.  
-
----
-
 ## ✅ Submission Summary
 
 - **Tech used:** React, TypeScript, Tailwind CSS, Storybook, Jest/RTL for tests.  
